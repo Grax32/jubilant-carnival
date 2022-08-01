@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    @using (Html.BeginForm("Form2", "Home", FormMethod.Post))
+    {
+        <label asp-for="ThisModel.Name"></label>
+
+        <hr />
+        <input asp-for="ThisModel.Name" />
+
+        <hr />
+        <span asp-validation-for="ThisModel.Name" class="text-danger"></span>
+        <button type="submit">Submit</button>
+    }
+</div>

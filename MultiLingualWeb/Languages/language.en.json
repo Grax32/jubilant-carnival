@@ -1,0 +1,10 @@
+{
+  "hello": "Hello",
+  "yes": "Yes",
+  "milk": "Milk",
+  "header": {
+    "nav": {
+      "privacy": "Privacy Policy"
+    }
+  }
+}

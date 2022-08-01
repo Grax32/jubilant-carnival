@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiLingualWeb", "MultiLingualWeb\MultiLingualWeb.csproj", "{315411DC-BEE8-460F-BFD1-9D90F103FA5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertJson", "Utilities\ConvertJson\ConvertJson.csproj", "{A16B5A12-B3DE-478F-BB0E-D8B2A059651D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{315411DC-BEE8-460F-BFD1-9D90F103FA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315411DC-BEE8-460F-BFD1-9D90F103FA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315411DC-BEE8-460F-BFD1-9D90F103FA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315411DC-BEE8-460F-BFD1-9D90F103FA5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16B5A12-B3DE-478F-BB0E-D8B2A059651D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16B5A12-B3DE-478F-BB0E-D8B2A059651D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16B5A12-B3DE-478F-BB0E-D8B2A059651D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16B5A12-B3DE-478F-BB0E-D8B2A059651D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D2CE324-E0E1-428F-B148-F03C87C884DB}
+	EndGlobalSection
+EndGlobal
