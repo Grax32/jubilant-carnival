@@ -9,6 +9,10 @@
 
   <ItemGroup>
     <PackageReference Include="glob" Version="1.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="microsoft.extensions.configuration.fileextensions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="6.0.7" />
     <PackageReference Include="newtonsoft.json" Version="13.0.1" />
   </ItemGroup>
 

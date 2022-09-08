@@ -1,3 +1,0 @@
-﻿DetailedErrors=True
-Logging.LogLevel.Default=Information
-Logging.LogLevel['Microsoft.AspNetCore']=Warning

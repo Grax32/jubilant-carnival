@@ -17,14 +17,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="microsoft.extensions.configuration.fileextensions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="6.0.7" />
     <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
   </ItemGroup>
 
   <Target Name="ConvertJsonLanguageToResText" BeforeTargets="Compile">
-    <Exec Command="echo Process Json Language Files"/>
-    <Exec Command="dotnet run --project ../Utilities/ConvertJson/ConvertJson.csproj"
-          YieldDuringToolExecution="True" ConsoleToMSBuild="true" StandardOutputImportance="high">
+    <Exec Command="dotnet run --project $(MSBuildProjectDirectory)/../Utilities/ConvertJson/ConvertJson.csproj" YieldDuringToolExecution="True" ConsoleToMSBuild="true" StandardOutputImportance="high">
       <Output TaskParameter="ConsoleOutput" ItemName="OutputOfExec" />
     </Exec>
   </Target>

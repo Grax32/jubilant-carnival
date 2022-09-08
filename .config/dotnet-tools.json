@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "json2env": {
+      "version": "0.1.0",
+      "commands": [
+        "json2env"
+      ]
+    }
+  }
+}
